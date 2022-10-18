@@ -1,0 +1,24 @@
+.card__information {
+  display: grid;
+  align-items: start;
+  grid-template-rows: 47px 62px 213px;
+  grid-template-areas:
+  "duration-tour"
+  "title"
+  "items"
+  "detailed";
+  margin-left: 10px;
+  margin-bottom: 17px;
+}
+
+@media screen and (min-width: 1106px) {
+  .card__information {
+    grid-template-areas:
+      "title"
+      "duration-tour"
+      "items"
+      "detailed";
+    grid-template-rows: 79px 50px 137px;
+    margin-left: 20px;
+  }
+}

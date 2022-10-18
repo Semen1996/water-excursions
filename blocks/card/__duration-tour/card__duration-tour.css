@@ -1,0 +1,6 @@
+.card__duration-tour {
+  grid-area: duration-tour;
+  display: flex;
+  align-items: center;
+  margin-top: 16px;
+}

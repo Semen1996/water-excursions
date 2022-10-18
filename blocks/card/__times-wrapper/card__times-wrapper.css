@@ -1,0 +1,11 @@
+.card__times-wrapper {
+  width: 276px;
+  overflow: auto;
+  white-space: nowrap;
+}
+
+@media screen and (min-width: 1106px) {
+  .card__times-wrapper {
+    width: 322px;
+  }
+}

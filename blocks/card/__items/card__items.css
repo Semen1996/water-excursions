@@ -1,0 +1,7 @@
+.card__items {
+  grid-area: items;
+  list-style-image: url("../../../images/mark.svg");
+  list-style-position: outside;
+  margin: 0;
+  padding-left: 23px;
+}

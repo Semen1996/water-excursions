@@ -1,0 +1,13 @@
+.card__cost-online {
+  margin: 0;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 20px;
+  color: #000000;
+}
+
+@media screen and (min-width: 1106px) {
+  .card__cost-online {
+    font-size: 36px;
+  }
+}

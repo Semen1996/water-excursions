@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="pages/index.css">
+    <title>Обзорные экскурсии по рекам и каналам</title>
+</head>
+<body>
+  <div class="root">
+    <div class="cards">
+    </div>
+  </div>
+  <template id="card">
+    <article class="card">
+      <img class="card__img" src="" alt="">
+      <div class="card__information">
+        <div class="card__duration-tour">
+          <img class="card__duration-icon" src="./images/clock.svg" alt="">
+          <p class="card__duration-text"></p>
+        </div>
+        <h2 class="card__title"></h2>
+        <ul class="card__items">
+          <li class="card__item">Билет на целый день</li>
+          <li class="card__item">Неограниченное число катаний</li>
+          <li class="card__item">6 остановок у главных достопримечательностей</li>
+          <li class="card__item"> 
+            <div class="card__next-time">
+              <p class="card__next-time-text">Ближайший рейс сегодня</p>
+              <div class="card__times-wrapper">
+                <ul class="card__times">
+                </ul>
+              </div>
+            </div>
+          </li>
+        </ul>
+        <div class="card__detailed">
+          <div class="card__cost">
+            <p class="card__cost-online"></p>
+            <p class="card__cost-offline"></p>
+          </div>
+          <button class="card__btn">Подробнее</button>
+        </div>
+    </article>
+  </template>
+  <script src="./pages/index.js"></script>
+</body>
+</html>

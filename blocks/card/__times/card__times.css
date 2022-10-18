@@ -1,0 +1,13 @@
+.card__times {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 13px 0 0;
+}
+
+@media screen and (min-width: 1106px) {
+  .card__times {
+    margin-top: 0;
+    margin-left: 9px;
+  }
+}
